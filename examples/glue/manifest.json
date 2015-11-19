@@ -1,0 +1,28 @@
+{
+	"server": {},
+	"connections": [
+		{
+			"port": 8000,
+			"labels": [
+				"web"
+			]
+		}
+	],
+	"plugins": [
+		{
+			"hapi-trails": [
+				{
+					"select": "web",
+					"options": {
+						"host": "YOUR_PAPERTRAIL_HOST",
+						"port": 9999,
+						"hostname": "Glue"
+					}
+				}
+			]
+		},
+		{
+			"./routes.js": {}
+		}
+	]
+}

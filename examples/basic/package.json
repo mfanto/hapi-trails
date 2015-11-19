@@ -1,0 +1,25 @@
+{
+	"name": "hapi-trails-basic-example",
+	"version": "1.0.0",
+	"description": "Basic example of hapi-trails plugin",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mfanto/hapi-trails.git"
+	},
+	"author": "Matthew Fanto <mfanto@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mfanto/hapi-trails/issues"
+	},
+	"homepage": "https://github.com/mfanto/hapi-trails",
+	"dependencies": {
+		"hapi": "^11.1.0",
+		"hoek": "^3.0.1",
+		"joi": "^7.0.0",
+		"hapi-trails": "^1.0.0"
+	}
+}
