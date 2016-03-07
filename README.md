@@ -31,7 +31,7 @@ server.register({
 
 ```
 
-You can now log to Papertrail through `server.plugins['hapi-shelf']`. 
+You can now log to Papertrail through `server.plugins['hapi-trails']`. 
 
 ```javascript
 server.route({
